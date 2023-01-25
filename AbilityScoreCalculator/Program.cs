@@ -32,6 +32,18 @@ namespace AbilityScoreCalculator
                 Score = added;
             }
         }
+
+        ///<summary>
+        /// Wyświetla informację i wczytuje wartość typu int z konsoli
+        ///</summary>
+        ///
+        static int ReadInt(int lastUsedValue, string prompt)
+        {
+            // Wyświetlanie informacji i [wartości domyślnej]:
+            // Wczytywanie wiersza dancyh wyjściowych i używanie int.TryParse do próby ich przetworzenia. Jeśli to możliwe, wyświetlanie w konsoli
+            // " użycie wartości " + value. W przeciwnym razie wysweitlanie w konsoli
+            // " użycie wartośći domyślnej " + lastUsedValue.
+        }
     }
     internal class Program
     {
