@@ -88,10 +88,7 @@ namespace AbilityScoreCalculator
         }
         static void Main(string[] args)
         {
-            float f1 = 185.26F;
-            double d2 = 0.0000316D;
-            decimal m3 = 37.26M;
-            Console.WriteLine((int)f1 +" "+ (int)d2 +" "+ (int)m3);
+
             AbilityScoreCalculator calculator = new AbilityScoreCalculator();
             while (true)
             {
